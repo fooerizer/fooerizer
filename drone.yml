@@ -1,0 +1,13 @@
+pipeline:
+  build:
+    image: node
+    commands:
+      - npm install 
+      - 
+      - go test
+
+services:
+  postgres:
+    image: postgres:9.4.5
+    environment:
+      - POSTGRES_USER=myapp
