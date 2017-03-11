@@ -1,0 +1,24 @@
+{
+  "name": "fooerizer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fooerizer/fooerizer.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fooerizer/fooerizer/issues"
+  },
+  "homepage": "https://github.com/fooerizer/fooerizer#readme",
+  "dependencies": {
+    "koa": "^2.1.0",
+    "koa-bodyparser": "^4.1.0",
+    "mongoose": "^4.8.6"
+  }
+}
