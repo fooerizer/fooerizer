@@ -3,11 +3,8 @@ pipeline:
     image: node
     commands:
       - npm install 
-      - 
-      - go test
+      - node index.js 
 
 services:
-  postgres:
-    image: postgres:9.4.5
-    environment:
-      - POSTGRES_USER=myapp
+  mongo:
+    image: mongo:3.4 
